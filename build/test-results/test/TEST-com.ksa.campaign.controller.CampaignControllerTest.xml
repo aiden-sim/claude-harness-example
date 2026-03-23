@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ksa.campaign.controller.CampaignControllerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-03-23T15:00:28" hostname="kakaoui-MacBookPro-2.local" time="0.45">
+  <properties/>
+  <testcase name="getCampaign_returnsDetail()" classname="com.ksa.campaign.controller.CampaignControllerTest" time="0.306"/>
+  <testcase name="getCampaigns_returnsPageResponse()" classname="com.ksa.campaign.controller.CampaignControllerTest" time="0.05"/>
+  <testcase name="getCampaigns_missingAccountHeader_returns401()" classname="com.ksa.campaign.controller.CampaignControllerTest" time="0.033"/>
+  <testcase name="getCampaign_notFound_returns404()" classname="com.ksa.campaign.controller.CampaignControllerTest" time="0.009"/>
+  <testcase name="getCampaigns_withStatusFilter()" classname="com.ksa.campaign.controller.CampaignControllerTest" time="0.025"/>
+  <testcase name="getCampaigns_invalidStatus_returns400()" classname="com.ksa.campaign.controller.CampaignControllerTest" time="0.008"/>
+  <system-out><![CDATA[00:00:25.859 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ksa.campaign.controller.CampaignControllerTest]: CampaignControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:00:26.185 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ksa.campaign.CampaignApplication for test class com.ksa.campaign.controller.CampaignControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-03-24T00:00:26.697+09:00  INFO 92616 --- [    Test worker] c.k.c.controller.CampaignControllerTest  : Starting CampaignControllerTest using Java 21.0.3 with PID 92616 (started by kakao in /Users/kakao/dev/study/claude/harness-example)
+2026-03-24T00:00:26.700+09:00  INFO 92616 --- [    Test worker] c.k.c.controller.CampaignControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2026-03-24T00:00:28.664+09:00  INFO 92616 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-03-24T00:00:28.665+09:00  INFO 92616 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-03-24T00:00:28.670+09:00  INFO 92616 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-03-24T00:00:28.723+09:00  INFO 92616 --- [    Test worker] c.k.c.controller.CampaignControllerTest  : Started CampaignControllerTest in 2.455 seconds (process running for 6.395)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
